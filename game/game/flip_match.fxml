@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<StackPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1" fx:controller="game.FlipMatchController">
+   <children>
+      <VBox alignment="CENTER" spacing="10.0" style="-fx-padding: 10;">
+         <children>
+            <Text text="Flip Match Card Game" style="-fx-font-family: 'Arial Black'; -fx-font-size: 18; -fx-font-weight: bold;" />
+            <HBox alignment="CENTER" spacing="10.0">
+               <children>
+                  <Button fx:id="card1" onAction="#handleCardClick" prefHeight="155.0" prefWidth="120.0" />
+                  <Button fx:id="card2" onAction="#handleCardClick" prefHeight="155.0" prefWidth="120.0" />
+                  <Button fx:id="card3" onAction="#handleCardClick" prefHeight="155.0" prefWidth="120.0" />
+                  <Button fx:id="card4" onAction="#handleCardClick" prefHeight="155.0" prefWidth="120.0" />
+               </children>
+            </HBox>
+            <HBox alignment="CENTER" spacing="10.0">
+               <children>
+                  <Button fx:id="card5" onAction="#handleCardClick" prefHeight="155.0" prefWidth="120.0" />
+                  <Button fx:id="card6" onAction="#handleCardClick" prefHeight="155.0" prefWidth="120.0" />
+                  <Button fx:id="card7" onAction="#handleCardClick" prefHeight="155.0" prefWidth="120.0" />
+                  <Button fx:id="card8" onAction="#handleCardClick" prefHeight="155.0" prefWidth="120.0" />
+               </children>
+            </HBox>
+            <HBox alignment="CENTER" spacing="10.0">
+               <children>
+                  <Button fx:id="card9" onAction="#handleCardClick" prefHeight="155.0" prefWidth="120.0" />
+                  <Button fx:id="card10" onAction="#handleCardClick" prefHeight="155.0" prefWidth="120.0" />
+                  <Button fx:id="card11" onAction="#handleCardClick" prefHeight="155.0" prefWidth="120.0" />
+                  <Button fx:id="card12" onAction="#handleCardClick" prefHeight="155.0" prefWidth="120.0" />
+               </children>
+            </HBox>
+         </children>
+      </VBox>
+   </children>
+</StackPane>
